@@ -5,7 +5,7 @@ namespace Blogger\BlogBundle\DataFixtures\ORM;
 
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
-use Doctrine\Common\DataFixtures\ReferenceRepository;
+//use Doctrine\Common\DataFixtures\ReferenceRepository;
 use Doctrine\Common\Persistence\ObjectManager;
 use Blogger\BlogBundle\Entity\Comment;
 use Blogger\BlogBundle\Entity\Blog;
