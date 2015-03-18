@@ -1,0 +1,4 @@
+services:
+#    fake_user.example:
+#        class: Fake\UserBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

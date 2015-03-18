@@ -24,7 +24,9 @@
         "doctrine/doctrine-fixtures-bundle": "dev-master",
         "doctrine/data-fixtures" : "dev-master",
         "doctrine/doctrine-migrations-bundle": "dev-master",
-        "doctrine/migrations": "dev-master"
+        "doctrine/migrations": "dev-master",
+        "friendsofsymfony/user-bundle": "~2.0@dev",
+        "ircmaxell/password-compat": "~1.0.3"
     },
     "scripts": {
         "post-install-cmd": [
