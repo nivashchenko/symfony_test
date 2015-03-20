@@ -11,7 +11,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="User")
+ * @ORM\Table(name="FakeUsers")
  */
 class User extends BaseUser
 {
@@ -22,20 +22,20 @@ class User extends BaseUser
      */
     protected $id;
 
-    /**
-     * @ORM\Column(type="string", length=100)
-     */
-    protected $firstName;
-
-    /**
-     * @ORM\Column(type="string", length=100)
-     */
-    protected $lastName;
-    
-    /**
-     * @ORM\Column(type="integer")
-     */
-    protected $status_id;
+//    /**
+//     * @ORM\Column(type="string", length=100)
+//     */
+//    protected $firstName;
+//
+//    /**
+//     * @ORM\Column(type="string", length=100)
+//     */
+//    protected $lastName;
+//    
+//    /**
+//     * @ORM\Column(type="integer")
+//     */
+//    protected $status_id;
     
     
 
@@ -51,11 +51,6 @@ class User extends BaseUser
         {
             $this->salt = $salt;
         }
-    }
-    
-    public function getParent()
-    {
-        return 'FOSUserBundle';
     }
     
 //    private function getConfig($param)
