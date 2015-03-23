@@ -1,0 +1,4 @@
+services:
+#    fake_admin.example:
+#        class: Fake\AdminBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

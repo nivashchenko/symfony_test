@@ -1,0 +1,55 @@
+{% extends 'FakeUserBundle::base.html.twig' %}
+
+{% block body %}
+    <header class="site-header">
+			<h1 class="title title-font">Fake Apps</h1>
+			<p class="tagline tagline-font">
+				Create and download templates of popular applications.
+			</p>
+		</header>
+
+		<div class="sparator"></div>
+		<section class="works-hex">
+
+			<a href="#" class="category category-1">
+				<div class="wrapper"><!--A helper to keep the hexagon's aspect ratio-->
+					<div class="hexagon">
+						<div class="hexagon-in1">
+							<div class="hexagon-in2">
+								<img class="thumbnail" src="img/01_1.jpg" alt="thumbnail">
+							</div><!--hexagon-in2-->
+						</div><!--hexagon-in1-->
+					</div><!--hexagon-->
+				</div><!--wrapper-->
+				<div class="category-name"><h2 class="works-font">iPhone</h2></div>
+			</a><!--category-1-->
+
+			<a href="#"  class="category category-2">
+				<div class="wrapper">
+					<div class="hexagon">
+						<div class="hexagon-in1">
+							<div class="hexagon-in2">
+								<img class="thumbnail" src="img/02_1.jpg" alt="thumbnail">
+							</div><!--hexagon-in2-->
+						</div><!--hexagon-in1-->
+					</div><!--hexagon-->
+				</div><!--wrapper-->
+				<div class="category-name"><h2 class="works-font">iPad</h2></div>
+			</a><!--category-2-->
+
+			<a href="#"  class="category category-3">
+				<div class="wrapper">
+					<div class="hexagon">
+						<div class="hexagon-in1">
+							<div class="hexagon-in2">
+								<img class="thumbnail" src="img/03_1.png" alt="thumbnail">
+							</div><!--hexagon-in2-->
+						</div><!--hexagon-in1-->
+					</div><!--hexagon-->
+				</div><!--wrapper-->
+				<div class="category-name"><h2 class="works-font">PC and LapTop</h2></div>
+			</a><!--category-3-->
+
+		</section><!--works-->
+		<div class="sparator"></div>
+{% endblock %}

@@ -1,10 +1,14 @@
-user_user:
-    resource: "@UserUserBundle/Resources/config/routing.yml"
+fake_template:
+    resource: "@FakeTemplateBundle/Resources/config/routing.yml"
     prefix:   /
+
+fake_admin:
+    resource: "@FakeAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
 
 fake_user:
     resource: "@FakeUserBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /user
 
 #blogger_blog:
 #    resource: "@BloggerBlogBundle/Resources/config/routing.yml"

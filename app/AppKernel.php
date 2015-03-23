@@ -22,7 +22,8 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new Fake\UserBundle\FakeUserBundle(),
-            new User\UserBundle\UserUserBundle(),
+            new Fake\AdminBundle\FakeAdminBundle(),
+            new Fake\TemplateBundle\FakeTemplateBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

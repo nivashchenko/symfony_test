@@ -1,0 +1,7 @@
+#fake_template_homepage:
+#    path:     /hello/{name}
+#    defaults: { _controller: FakeTemplateBundle:Default:hello }
+
+fake_template_homepage:
+    path:     /
+    defaults: { _controller: FakeTemplateBundle:Default:index }
