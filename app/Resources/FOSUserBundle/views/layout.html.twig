@@ -1,26 +1,6 @@
 {% extends 'FakeUserBundle::base.html.twig' %}
 
 {% block body %}
-{% block fos_user_content %}
-{#    <form action="{{ path("fos_user_security_check") }}" method="post">
-      <p>
-        <label for="username">Email:</label>
-        <input type="text" name="username" id="username" name="_username" value="">
-      </p>
-
-      <p>
-        <label for="password">{{ 'security.login.password'|trans }}</label>
-        <input type="password" id="password" name="_password" required="required" />
-      </p>
-
-      <p class="login-submit">
-        <input type="submit" class="login-button" id="_submit" name="_submit" value="{{ 'security.login.submit'|trans }}" />
-      </p>
-      <p>
-        <input type="checkbox" id="remember_me" name="_remember_me" value="on" />
-        <label for="remember_me">{{ 'security.login.remember_me'|trans }}</label>
-      </p>
-      <p class="forgot-password"><a href="index.html">Forgot your password?</a></p>
-    </form>#}
+    {% block fos_user_content %}
     {% endblock %}
 {% endblock %}

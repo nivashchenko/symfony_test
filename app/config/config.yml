@@ -75,6 +75,25 @@ swiftmailer:
 
 # FOSUserBundle Configuration
 fos_user:
+    service:
+        mailer: fos_user.mailer.twig_swift
+    resetting:
+        email:
+            template: AcmeDemoBundle:User:resetting.email.html.twig
     db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
     firewall_name: main
     user_class: Fake\UserBundle\Entity\User
+    registration:
+        confirmation:
+            enabled:    false
+            from_email:
+                address:        registration@fakeapps.com
+                sender_name:    Fake Apps Registration
+    resetting:
+        email:
+            from_email:
+                address:        resetting@fakeapps.com
+                sender_name:    Fake Apps Resetting
+    from_email:
+        address:        noreply@acmedemo.com
+        sender_name:    Fake Apps

@@ -1,0 +1,8 @@
+template:
+    home_page: "Home Page"
+mail:
+    title_reset: "Resetting your password"
+    hello: "Hello"
+    content: "You can reset your email by accessing"
+    greetings: "Greetings"
+    the: "the"
