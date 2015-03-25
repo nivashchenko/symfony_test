@@ -5,3 +5,6 @@
 fake_template_homepage:
     path:     /
     defaults: { _controller: FakeTemplateBundle:Default:index }
+fake_template_template:
+    path:     /template
+    defaults: { _controller: FakeTemplateBundle:Default:template }

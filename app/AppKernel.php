@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new Fake\UserBundle\FakeUserBundle(),
             new Fake\AdminBundle\FakeAdminBundle(),
             new Fake\TemplateBundle\FakeTemplateBundle(),
+            new SunCat\MobileDetectBundle\MobileDetectBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

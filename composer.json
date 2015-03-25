@@ -26,7 +26,8 @@
         "doctrine/doctrine-migrations-bundle": "dev-master",
         "doctrine/migrations": "dev-master",
         "friendsofsymfony/user-bundle": "~2.0@dev",
-        "ircmaxell/password-compat": "~1.0.3"
+        "ircmaxell/password-compat": "~1.0.3",
+        "suncat/mobile-detect-bundle": "0.10.*"
     },
     "scripts": {
         "post-install-cmd": [

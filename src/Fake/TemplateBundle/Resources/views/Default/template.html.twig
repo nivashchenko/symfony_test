@@ -1,0 +1,28 @@
+{% extends "FakeUserBundle::layout.html.twig" %}
+{% block fos_user_content %}
+    <header class="gallery-header">
+            <h1 class="entry-title-font">Templates Gallery</h1>
+            <p></p>
+            {{ device }}
+            {% if true != device %}
+                <p class="meta-info-font">Your device is PC</p>
+            {% elseif is_device('iphone') %}
+                <p class="meta-info-font">Your device is iPhone</p>
+            {% elseif is_device('ipad') %}
+                <p class="meta-info-font">Your device is iPad</p>
+            {% endif %}
+
+            <p></p>
+    </header>
+
+    <section class="gallery">
+
+        {% for key,value in data %}
+            <div class="wrapper">
+                <a href="{{ value.href }}">
+                    <img class="thumbnail" src="{{ value.imgPath }}" alt="{{ value.appName }}">
+                </a>
+            </div><!--wrapper-->
+        {% endfor %}
+    </section><!--works-->
+{% endblock %}

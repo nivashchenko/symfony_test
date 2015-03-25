@@ -1,5 +1,6 @@
 template:
     home_page: "Home Page"
+    templates: "Templates"
 mail:
     title_reset: "Resetting your password"
     hello: "Hello"

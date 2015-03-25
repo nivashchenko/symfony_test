@@ -231,9 +231,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .meta-info-font, figcaption {
-	margin: 0;
+	margin: 40px;
 	font-family: 'OpenSansItalic', Arial, sans-serif;
-	font-size: 13px;
+        color: red;
+	font-size: 23px;
 }
 
 @media all and (min-width:1401px) {
