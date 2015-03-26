@@ -63,10 +63,4 @@ class DefaultController extends Controller
                 array('device' => $device,
                     'data' => $data));
     }
-    
-    
-//    public function indexAction($name)
-//    {
-//        return $this->render('FakeTemplateBundle:Default:index.html.twig', array('name' => $name));
-//    }
 }

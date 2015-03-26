@@ -1,0 +1,35 @@
+{% extends "FakeUserBundle::layout.html.twig" %}
+{% block fos_user_content %}
+<!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+<div class="top-ribbon"></div>
+
+<div class="single-work">
+        <div class="home"><a href="gallery.html"><i class="icon-home"></i></a></div>
+
+        <article class="image">
+                <img src="/img/image.jpg" alt="image">
+        </article>
+
+        <aside class="description">
+                <header>
+                        <h1 class="entry-title-font">Single Work</h1>
+                        <p class="meta-info-font">A sunset road, taken on a bike trip on the outskirts of town &middot; <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time></p>
+                </header>
+
+                <div class="content">
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.</p>
+                </div>
+
+                <footer>
+                        <p class="meta-info-font"><a class="js-tweet" href="#">Tweet me <i class="icon-twitter"></i></a> to let me know what you think</p>
+                        <p class="meta-info-font prev-next">
+                                <a href="">&lArr; Previous Image</a> // <a href="">Next Image &rArr;</a>
+                        </p>
+                </footer>
+        </aside>
+
+</div><!--single-work-->
+{% endblock %}
