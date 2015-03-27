@@ -23,6 +23,8 @@ class DefaultController extends Controller
     
     public function templateAction()
     {
+//        var_dump($this->getUser());
+        
         $mobileDetector = $this->get('mobile_detect.mobile_detector');
         if ( $mobileDetector->isMobileView() )
         {

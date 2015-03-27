@@ -51,6 +51,7 @@ class User extends BaseUser
         {
             $this->salt = $salt;
         }
+        $this->roles = array('ROLE_USER','ROLE_USER_ADMIN');
     }
     
 //    private function getConfig($param)
